@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+    font-family: sans-serif;
+}
+
+img{
+    width: 150px;
+    height: 140px;
+    border-radius: 28px;
+}
+body{
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 38, 108);
+    padding: 10px;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+}
+
+
+li{
+    display: inline-block;
+    padding: 10px 15px ;
+    background-color: green;
+    margin-left: 100px;
+    list-style: none;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li:hover{
+    background: linear-gradient(to left, #1fbe69, #8a50c3);
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    max-width: 100%;
+    min-height: 810px;
+    
+}
+
+.group-itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow:10;
+    
+}
+
+.box1{
+  width: 400px;
+  height: 270px;
+  
+  margin: 5px;
+}
+
+.roupa{
+    width: 350px;
+    height: 280px;
+    border-radius: 2px;
+}
+.box2{
+    width: 300px;
+    height: 270px;
+    margin: 5px;
+}
+
+.dobrar{
+    width: 350px;
+    height: 280px;
+    border-radius: 2px;
+}
+.box3{
+    width: 300px;
+    height: 270px;
+   
+    margin: 5px;
+}
+.passar{
+     width: 350px;
+    height: 280px;
+    border-radius: 2px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(104, 103, 157);
+    text-align: center;
+
+    
+}
+p{
+    height: px;
+    text-align: center;    
+   
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header> <!-- Links de Navegação-->
+        <img class="logo" src="../assets/logo.png" alt="logo">
+        <nav>
+             <ul>
+                <li><a href="http://127.0.0.1:5500/index01.html">HOME</a></li>
+                <li><a href="http://127.0.0.1:5500/services.html">Serviços</a></li><!--Pgina de login -->
+                <li><a href="http://127.0.0.1:5500/login.html">Login</a></li><!--Pgina de login -->
+                
+            </ul>
+        </nav>
+    </header>
+    <!-- Formulario de Castro de Login-->
+    <form action="cadastro.dados" method="post">
+        <main>
+            <fieldset>
+                <h1>Faça seu login</h1>
+                
+                    <div class="group-form">
+                        <div class="tamInp">
+                            <label for="email">Seu e-mail</label>
+                            <input type="email" name="email" id="email" required>
+                       
+                            <label for="senha">Sua Senha</label>
+                            <input type="password" name="senha" id="senha" required>
+                        </div>
+                            
+                            
+                                <div class="inputs">
+                                    <label class="lemSenha">Lembre-me</label>
+                                    <input class="checkbox" type="checkbox">
+                                </div>   
+
+                                <div class="btn">
+                                    <button>Entrar</button>
+                                </div>
+                                <p>Esqueceu sua senha? <a href="#">Clique aqui !</a></p>
+                        </div>
+                    
+
+            </fieldset>
+        </main>
+    </form>
+    <footer>
+    <p>
+        &copy; 2025 Nome da Sua Empresa. Todos os direitos reservados. |
+        <a href="/politica">Política de Privacidade</a> |
+        Contato: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a>.
+    </p>
+    </footer>
+    
+</body>
+</html>
